@@ -17,44 +17,76 @@
     transform: translateY(-10px);
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
+.service-card {
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        .service-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        }
+
+        .service-card img {
+            width: 100%;
+            height: auto;
+            border-bottom: 3px solid #2a9d8f;
+        }
+
+        .service-card h4 {
+            font-size: 1.5rem;
+            color: #333;
+            padding: 10px;
+            background-color: #f4f4f4;
+        }
+
+        .service-card p {
+            font-size: 1.1rem;
+            color: #777;
+            padding: 15px;
+        }
     </style>
 </head>
 <body>
     <div class="w3-panel w3-card-4">
-    <section class="services bg-light py-5" id="services">
-        <div class="container text-center">
-            <h2>Our Services</h2>
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="service-card panel panel-default">
-                        <div class="panel-body">
-                            <img src="images/emg.jpg">
-                            <h4>Emergency Care</h4>
-                            <p>  24/7 Emergency services for urgent medical care.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="service-card panel panel-default">
-                        <div class="panel-body">
-                            <img src="images/sur.jpg">
-                            <h4>General Checkup</h4>
-                            <p>Regular health checkups & preventive care services.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="service-card panel panel-default">
-                        <div class="panel-body">
-                            <img src="images/ped.jpg">
-                            <h4>Specialist Consultation</h4>
-                            <p>Consult with top specialists in various fields of medicine.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-</div>
+        <div class="margin alert alert-info">
+          <section class="services bg-light py-5" id="services">
+              <div class="container text-center">
+                  <h2 style="font-size: x-large;"><b>Our Services</b></h2>
+                  <div class="row">
+                      <div class="col-md-4">
+                          <div class="service-card panel panel-primary">
+                              <div class="panel-body">
+                                  <img src="images/emg.jpg" alt="Emergency Care">
+                                  <h3>Emergency Care</h3>
+                                  <p>24/7 Emergency services for urgent medical care.</p>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-md-4">
+                          <div class="service-card panel panel-primary">
+                              <div class="panel-body">
+                                  <img src="images/ser.jpg" alt="General Checkup">
+                                  <h3>General Checkup</h3>
+                                  <p>Regular health checkups & preventive care services.</p>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-md-4">
+                          <div class="service-card panel panel-primary">
+                              <div class="panel-body">
+                                  <img src="images/ped.jpg" alt="Specialist Consultation">
+                                  <h3>Specialist Consultation</h3>
+                                  <p>Consult with top specialists in various fields of medicine.</p>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </section>
+       </div>
+      </div>
 </body>
 </html>

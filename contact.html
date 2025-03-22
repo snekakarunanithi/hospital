@@ -9,40 +9,45 @@
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
     
     <title>Contact</title>
+    <style>
+        #contact .form-control {
+            border-radius: 5px;
+        }
+    </style>
 </head>
 <body>
- <div class="w3-panel w3-card-4"> 
-    <section id="contact" class="bg-light py-5">
-        <div class="container">
-            <h2 class="text-center mb-4">Contact Us</h2>
-            <form id="contact-form">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="mb-3">
-                            <label for="name" class="form-label">Name</label>
-                            <input type="text" class="form-control" id="name" placeholder="Enter Name"  required>
+    <div class="w3-panel w3-card-4">
+        <div class=" margin alert alert-info"> 
+              <section id="contact" class="bg-light py-5">
+                <div class="container">
+                    <h2 class="text-center mb-4">Contact Us</h2>
+                    <form id="contact-form">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label for="name" class="form-label">Name</label>
+                                    <input type="text" class="form-control" id="name" placeholder="Enter Name" required>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label for="email" class="form-label">Email</label>
+                                    <input type="email" class="form-control" id="email" placeholder="Enter Email" required>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-md-6">
                         <div class="mb-3">
-                            <label for="email" class="form-label">Email</label>
-                            <input type="email" class="form-control" id="email" placeholder="Enter Email" required>
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" id="message" rows="4" required></textarea>
                         </div>
-                    </div>
+                        <br><br>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                        <button type="button" class="btn btn-danger">Cancel</button>
+                        <br><br>
+                    </form>
                 </div>
-                <div class="mb-3">
-                    <label for="message" class="form-label">Message</label>
-                    <textarea class="form-control" id="message" rows="4" required></textarea>
-                </div>
-                <br>
-                <br>
-                <button type="submit" class="btn btn-primary">Send Message</button>
-                <button type="submit" class="btn btn-danger">cancel</button>
-                <br>
-                <br>
-            </form>
+           </section>
         </div>
-    </section>
- </div>
+        </div>
 </body>
 </html>
