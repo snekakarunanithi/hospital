@@ -1,0 +1,52 @@
+/* Appointment Section Styling */
+#appointment {
+    background-color: #f0f8ff; /* Light blue background */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Form label styling */
+.form-label {
+    font-weight: bold;
+    color: #007bff; /* Bootstrap blue */
+}
+
+/* Input field styling */
+.form-control {
+    border: 2px solid #007bff; /* Blue border */
+    border-radius: 8px; /* Rounded corners */
+    transition: border-color 0.3s ease; /* Smooth transition */
+}
+
+/* On focus, change the border color */
+.form-control:focus {
+    border-color: #28a745; /* Green border on focus */
+    box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.25); /* Green shadow */
+}
+
+/* Button Styling */
+.btn {
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Button Color */
+.btn-success {
+    background-color: #28a745; /* Green button */
+    border-color: #28a745; /* Green border */
+}
+
+.btn-success:hover {
+    background-color: #218838; /* Darker green on hover */
+    border-color: #1e7e34; /* Darker border on hover */
+}
+
+/* Text Style */
+.text-primary {
+    color: #007bff !important;
+}
+
+.text-info {
+    color: #17a2b8 !important;
+}
