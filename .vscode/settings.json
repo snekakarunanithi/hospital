@@ -1,0 +1,7 @@
+{
+    "git.blame.statusBarItem.enabled": true,
+    "git.decorations.enabled": true,
+    "git.blame.editorDecoration.enabled": true,
+    "git.branchRandomName.enable": true,
+    "git.diagnosticsCommitHook.Enabled": true
+}
