@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title> Hospital</title>
+    <style>
+        /* Body section */
+        .body {
+            background: url(images/img.jpg) no-repeat center center/cover;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+            padding-top: 50px;
+            background-size: cover;
+        }
+
+        
+        .navbar {
+            background-color: #f44336;; 
+            color: white;
+            border-radius: 1;
+            box-shadow: 0 4px 8px white;
+            text-decoration: white;
+            font-weight: 300;
+        }
+        .navbar-brand{
+            color: white;
+        }
+        
+
+        .navbar a {
+            color:rgba(227, 241, 27, 0.904);
+            text-decoration-color: #f0f4f8;
+        }
+
+        .navbar a:hover {
+            color: rgba(19, 19, 18, 0.938);
+        
+        .about {
+            padding: 60px 0;
+            background-color: rgba(30, 144, 238, 0.644);
+            text-align: center;
+
+        }
+        .container{
+            background-color: rgba(79, 234, 255, 0.740);
+        }
+
+        .about h2 {
+            font-size: 2.5rem;
+            color: #2a9d8f;
+            margin-bottom: 30px;
+        }
+
+        .about p {
+            font-size: 1.2rem;
+            color: #333;
+            margin-bottom: 30px;
+        }
+
+        .about img {
+            max-width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .btn-info {
+            background-color: #ff6f61; 
+            border-color: #ff6f61;
+        }
+
+        .btn-info:hover {
+            background-color: #2a9d8f;
+            border-color: #2a9d8f;
+        }
+
+        
+        .service-card {
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        .service-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        }
+
+        .service-card img {
+            width: 100%;
+            height: auto;
+            border-bottom: 3px solid #2a9d8f;
+        }
+
+        .service-card h4 {
+            font-size: 1.5rem;
+            color: #333;
+            padding: 10px;
+            background-color: #f4f4f4;
+        }
+
+        .service-card p {
+            font-size: 1.1rem;
+            color: #777;
+            padding: 15px;
+        }
+        .service-card {
+    margin-bottom: 20px;
+    transition: all 0.3s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+        
+        #contact .form-control {
+            border-radius: 5px;
+        }
+
+        .btn-primary {
+            background-color: #2a9d8f; 
+            border-color: #2a9d8f;
+        }
+
+        .btn-primary:hover {
+            background-color: #ff6f61; 
+            border-color: #ff6f61;
+        }
+
+        .btn-danger {
+            background-color: #f44336; 
+            border-color: #f44336;
+        }
+
+        .btn-danger:hover {
+            background-color: #ff6f61; 
+            border-color: #ff6f61;
+        }
+
+        
+        .footer {
+            background-color:darkblue;
+            color: #fff;
+            padding: 40px 0;
+        }
+        .footer a {
+            color: #fff;
+            text-decoration: none;
+        }
+        .footer a:hover {
+            text-decoration: underline;
+        }
+        .footer .social-icons a {
+            font-size: 20px;
+            margin-right: 15px;
+            color:rgb(10, 10, 10);
+        }
+        .footer .social-icons a:hover {
+            color: rgb(17, 17, 17);
+        }
+        .container{
+            background-color: #ff6f61;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar  navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand" style="font: 2em sans-serif;">Nethra Eye Care</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href=".">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="SERVICES.HTML">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+<br>
+<BR>
+    <!-- body Section -->
+    <section class="body">
+        <div class="container text-left">
+            <h1>Your Vision, Our Priority</h1>
+            <h4>Compassionate care for your every need</h4>
+            <p>Transforming Blurred Vision to Clear Vision with </p>
+            <h3>Advanced, Painless Cataract Surgery in Kerala</h3> 
+            <p>Quick Recovery, No Stitches, Same-Day Discharge</p>
+            <br><br>
+            <a href="Appointment.html" class="btn btn-success btn-lg">Book an Appointment</a>
+        </div>
+    </section>
+    <br><br>
+    <!--crauosel section-->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+      
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+          <div class="item active">
+           <center><img src="images/pm.jpg" width="50%" height="50%"></center> 
+          </div>
+      
+          <div class="item">
+           <center> <img src="images/img2.jpg" width="50%" height="50%"></center>
+          </div>
+      
+          <div class="item">
+           <center> <img src="images/im.jpg" width="50%" height="50%"></center>
+          </div>
+        </div>
+      
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    <!-- About Section -->
+    <div class="w3-panel w3-card-4">
+    <section class="about"id="about ">
+    <div class="margin alert alert-info">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2> <b>About Us</b></h2>
+                    <p>Nethra Eye Care Centre, located in Irinjalakuda, Kerala, is a premier eye care institution committed to delivering world-class ophthalmic services.</p>
+                    <a href="Learnmore.html" class="btn btn-primary">Learn More About Us</a>
+                </div>
+                <div class="col-md-6">
+                    <img src="images/eye.jpg" width="100%" height="100%" alt="Hospital Image" class="img-responsive">
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+    </div>
+    <br><br>
+    <!-- Services Section -->
+    <div class="w3-panel w3-card-4">
+      <div class="margin alert alert-info">
+        <section class="services bg-light py-5" id="services">
+            <div class="container text-center">
+                <h2 style="font-size: x-large;"><b>Our Services</b></h2>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="service-card panel panel-primary">
+                            <div class="panel-body">
+                                <img src="images/emg.jpg" alt="Emergency Care">
+                                <h3>Emergency Care</h3>
+                                <p>24/7 Emergency services for urgent medical care.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="service-card panel panel-primary">
+                            <div class="panel-body">
+                                <img src="images/ser.jpg" alt="General Checkup">
+                                <h3>General Checkup</h3>
+                                <p>Regular health checkups & preventive care services.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="service-card panel panel-primary">
+                            <div class="panel-body">
+                                <img src="images/ped.jpg" alt="Specialist Consultation">
+                                <h3>Specialist Consultation</h3>
+                                <p>Consult with top specialists in various fields of medicine.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+     </div>
+    </div>
+    <br><br>
+    <!-- Contact Section -->
+    <div class="w3-panel w3-card-4">
+    <div class=" margin alert alert-info"> 
+          <section id="contact" class="bg-light py-5">
+            <div class="container">
+                <h2 class="text-center mb-4">Contact Us</h2>
+                <form id="contact-form">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="mb-3">
+                                <label for="name" class="form-label">Name</label>
+                                <input type="text" class="form-control" id="name" placeholder="Enter Name" required>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="email" placeholder="Enter Email" required>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea class="form-control" id="message" rows="4" required></textarea>
+                    </div>
+                    <br><br>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                    <button type="button" class="btn btn-danger">Cancel</button>
+                    <br><br>
+                </form>
+            </div>
+       </section>
+    </div>
+    </div>
+    <br><br>
+    <!-- Footer -->
+    <div class="w3-panel w3-card-4">
+     <div class="margin" style="background-color:darkblue;">
+        
+    <footer class="footer" style="color: white;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <i style="font-size:24px" class="fa">&#xf0f8;</i>&emsp; <h3> Nethra Eye Care center</h3>
+                    <ul class="list-unstyled">
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Our Services</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h3>Follow Us</h3>
+                    <div class="social-icons">
+                        
+                        <i style="font-size:24px" class="fa">&#xf230;</i>
+
+                        <i style="font-size:24px" class="fa">&#xf08c;</i>
+                        <i style="font-size:24px" class="fa">&#xf081;</i>
+                        <i style="font-size:24px" class="fa">&#xf1a0;</i>
+
+
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <h3>Contact</h3>
+                    <address >
+                        <div style="color: #f0f4f8;">
+                        <i style='font-size:24px' class='fas'>&#xf3c5;</i>Main Road, Near Lf School, Irinjalakuda, Trissur,
+                        Kerala - 680121
+                        <i style='font-size:24px' class='far'>&#xf0e0;</i>info@nethraeyecare.com
+                        <i style='font-size:24px' class='fas'>&#xf095;</i> +91 9447329126
+                    </div>
+                    </address>
+                </div>
+            </div>
+            
+        </div>
+    </footer>
+ 
+     </div>
+    </div>
+    <footer style="color: #f0f4f8;">
+        <div class="container text-center mt-4" style="background-color: #f44336;">
+            <p>&copy; 2025 Hospital Name. All Rights Reserved.</p>
+            <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a> | <a href="#">FAQ</a></p>
+        </div>
+    </footer>
+ 
+</body>
+</html>
