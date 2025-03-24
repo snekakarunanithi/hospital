@@ -3,5 +3,14 @@
     "git.decorations.enabled": true,
     "git.blame.editorDecoration.enabled": true,
     "git.branchRandomName.enable": true,
-    "git.diagnosticsCommitHook.Enabled": true
+    "git.diagnosticsCommitHook.Enabled": true,
+    "git.alwaysSignOff": true,
+    "git.enableCommitSigning": true,
+    "git.ignoredRepositories": [
+        ""
+    ],
+    "git.ignoreLegacyWarning": false,
+    "git.alwaysShowStagedChangesResourceGroup": true,
+    "git.allowNoVerifyCommit": true,
+    "git.allowForcePush": true
 }
